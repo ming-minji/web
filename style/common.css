@@ -54,7 +54,23 @@ p{
     display: none;
 }
 
+.tab{
+    display: none;
+}
+
+.pc{
+    display: block;
+}
+
+main{
+    margin-top: 100px;
+}
+
 @media (max-width:1440px){
+    main{
+        margin-top: 5rem;
+    }
+
     html{
         font-size: var(--basic-font-tab);
     }
@@ -62,12 +78,20 @@ p{
         width: auto;
         margin: 0 2rem;
     }
+
+    .pc{display: none;}
+
+    .tab{display: block;}
+
+    .mo{display: none;}
 }
 
 @media (max-width:768px){
-    .mo{
-        display: block;
-    }
+    .pc{display: none;}
+
+    .tab{display: none;}
+
+    .mo{display: block;}
 
     html{
         font-size: var(--basic-font-mobile);
@@ -78,4 +102,3 @@ p{
     }
 }
 
-/* 쌤 css보고 채우기 */

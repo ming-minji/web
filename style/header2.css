@@ -1,15 +1,21 @@
+
 header{
+    box-shadow: 0 0 10px #ddd;
     padding-bottom: 2rem;
-    background-color: #fff;
+    background-color: #fff;  
     max-height: 100px;
     overflow: hidden;
     box-sizing: border-box;
     transition: all 0.5s ease 0s;
-    box-shadow: 0 0 10px #ddd;
+    position: fixed;
+    left:0;
+    top:0;
+    z-index: 1000;
+    width:100%;
 }
 
 header:hover{
-    max-height: 500px;
+    max-height: 400px;
 }
 
 header .common-frame{
@@ -20,13 +26,13 @@ header .common-frame{
 
 .gnb{
     display: flex;
-    gap: 2.5rem;
+    gap:2.5rem;
 }
 
 .gnb>li>a{
-    font-size: var(--fs-bd2);
+    font-size:var(--fs-bd2);
     font-weight: var(--fw-bold);
-    height: 100px;
+    height:100px;
     display: flex;
     align-items: center;
     margin-bottom: .5rem;
@@ -59,21 +65,25 @@ header .sns li{
     display: none;
 }
 
-.btn.close{
+.btn.close img{
     height: 1.2rem;
 }
 
 
 @media (max-width:1440px){
     .menu-smart-hidden{
-        transform: translateX(100%);
+        /* transform: translateX(100%); */
+        filter: blur(0px);
         opacity: 0;
         pointer-events: none;
         transition: all 0.7s ease 0s;
     }
 
     .menu-smart-hidden.on{
-        transform: translateX(0%);
+        /* transform: translateX(0%); */
+        filter: blur(0px);
+        opacity: 1;
+        pointer-events: auto;
     }
 
     header{
@@ -83,6 +93,13 @@ header .sns li{
     .header-smart{
         display: block;
         box-shadow: 0 0 10px #ddd;
+        position: fixed;
+        z-index: 2000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background-color: #fff;
+
     }
 
     .header-smart .common-frame{
@@ -131,11 +148,6 @@ header .sns li{
         line-height: 0;
     }
 
-    .menu-top .logo{
-
-    }
-    
-
     .menu-top .logo img{
         height: 5rem;
     }
@@ -152,10 +164,6 @@ header .sns li{
         grid-template-columns: repeat(4,1fr);
         gap: 3rem 1rem;
         font-size: var(--fs-bd2);
-    }
-
-    .gnb-smart>li{
-
     }
 
     .gnb-smart>li>a{
@@ -181,8 +189,8 @@ header .sns li{
     .menu-sns{
         height: 3rem;
         display: flex;
-        justify-content: flex-end;
         align-items: center;
+        justify-content: flex-end;
     }
 }
 
@@ -203,6 +211,10 @@ header .sns li{
 
     .gnb-smart>li.on{
         max-height: 300px;
+    }
+
+    .gnb-smart>li .btn-more img{
+        transition: all .5s ease 0s;
     }
 
     .gnb-smart>li.on .btn-more img{
@@ -234,6 +246,7 @@ header .sns li{
     .btn-more{
         position: absolute;
         width: 40px;
+        /* padding-left: 20px; */
         height: 40px;
         right: 0;
         top: 0;
