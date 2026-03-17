@@ -20,7 +20,7 @@ footer{
 
 .ft-menu{
     display: flex;
-    gap: var(--space-small);
+    gap: var(--space-normal);
 }
 
 .ft2{
@@ -68,8 +68,8 @@ footer{
 }
 
 .ft4{
-    padding: var(--space-small);
-    font-weight: var(--fw-bold);
+    padding: var(--space-small) 0;
+    font-weight: var(--fw-med);
     text-align: center;
 }
 
