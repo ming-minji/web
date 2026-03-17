@@ -3,6 +3,10 @@ html{
     font-size: var(--basic-font-pc);
 }
 
+main{
+    min-height: 60vh;
+}
+
 h1{
     font-size:var(--fs-h1);
     font-weight: var(--fw-bold);
@@ -27,7 +31,7 @@ p{
     line-height: 140%;
 }
 
-.bd2{
+.b2{
     font-size:var(--fs-bd2);
 }
 
@@ -81,7 +85,6 @@ main{
     justify-content: center;
     padding: 0.25rem 0.75rem;
     border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.24);
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
@@ -91,7 +94,10 @@ main{
 
 .btn-style:hover{
     background-color: var(--pm-color-900);
+    color: #fff;
 }
+
+.ptc{color: var(--point-color);}
 
 @media (max-width:1440px){
     main{

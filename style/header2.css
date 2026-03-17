@@ -56,7 +56,7 @@ header .sns li{
 }
 
 .gnb a:hover{
-    color: var(--point-color);
+    color: var(--pm-color-800);
 }
 
 .header-smart{display: none;}
