@@ -15,6 +15,75 @@
     font-size: 50px;
 }
 
+.core .common-frame>.fwb{
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: var(--space-normal);
+}
+
+.core h1{
+    color: var(--pm-color-800);
+    font-size: 70px;
+    /* text-transform: uppercase; */
+    line-height: 100%;
+    text-align: center;
+    margin-bottom: var(--space-normal);
+}
+
+.core h1+p{
+    text-align: center;
+    margin-bottom: var(--space-x-large);
+}
+
+.core-card{
+
+}
+
+.core-card>li{
+    border: 1px solid #cfcfcf;
+    padding: var(--space-large);
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.core-card>li>h4{
+    margin-bottom: var(--space-small);
+}
+
+.core-card>li>h4+p{
+    margin-bottom: var(--space-normal);
+    color: var(--pm-color-800);
+}
+
+.core-card>li>h4+*+p{
+    margin-bottom: var(--space-normal);
+}
+
+.core-card>li>figure{
+    margin-bottom: var(--space-normal);
+}
+
+.core-card>li ul{
+    margin-bottom: var(--space-normal);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-small);
+}
+
+.core-check-list li{
+    display: flex;
+    /* align-items: center; */
+    gap: var(--space-small);
+}
+
+.core-check-list li img{
+    height: 1.2rem;
+
+}
+
+
+
+
 @media (max-width:1440px){
     .sub-banner{
         height: 400px;
@@ -33,4 +102,6 @@
     .sub-banner .common-frame>h1{
         font-size: 30px;
     }
+
+
 }
