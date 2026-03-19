@@ -201,8 +201,9 @@
                 <span class="btn-menu"><img src="./img/Menu.svg" alt="전체버튼메뉴"></span>
             </div>
         </div>
+
     <main>
-        
+        <!-- story -->
         <div class="sub-banner">
             <div class="common-frame">
                 <h1>SANDIE STORY</h1>
@@ -210,7 +211,7 @@
         </div>
 
         <!-- core value -->
-         <div class="core">
+        <div class="core">
             <div class="common-frame">
                 <p class="fwb">샌디가 쌓아 올리는 가치</p>
                 <h1>Layered with Care<br>Built for Your Health</h1>
@@ -265,10 +266,55 @@
                     </ul>
                 </div>
                 <script>
-                    const coreSwiper = new Swiper('.core-swiper',{})
+                    const coreSwiper = new Swiper('.core-swiper',{
+                        slidesPerView: 1.3,
+                        spaceBetween: 14,
+                        breakpoints:{
+                            768:{
+                                slidesPerView: 3,
+                                spaceBetween: 18,
+                            },
+                            1440:{
+                                slidesPerView: 3,
+                                spaceBetween: 20,
+                            }
+                        }
+                    })
                 </script>
             </div>
-         </div>
+        </div>
+
+         <!-- identity -->
+        <div class="identity">
+            <div class="common-frame">
+                <h1>Sandie For Your Lifestyle</h1>
+                <p>당신의 일상 속 샌디</p>
+                <figure class="iden-img">
+                    <img src="./img/banner-identity.jpg" alt="샌디 샌드위치를 컴퓨터 옆에서 손으로 들고 먹는 이미지">
+                </figure>
+                <div class="identity-desc">
+                    <div class="iden-left">
+                        <h5 class="fwb">
+                            Anywhere,<br>
+                            Anytime,<br>
+                            Always sandie.
+                        </h5>
+                        <p class="fwm">언제 어디서나, 당신 곁의 샌디.</p>
+                    </div>
+                    <div class="iden-right">
+                        <p>
+                            잠을 깨우는 아침 식사는 무엇보다 속이 편안해야 합니다. 샌디는 소화가 잘되는 통곡물 빵과 가벼운 스프레드를 활용하여 당신의 아침을 가뿐하고 활기차게 열어드립니다. 자극적이지 않으면서도 필수 영양소를 가득 채운 샌드위치는 바쁜 출근길에 가장 든든한 동반자가 될 것입니다. 이제 복잡한 준비 대신 샌디와 함께 가벼우면서도 확실한 에너지로 하루를 시작해 보세요.
+                        </p>
+                        <p>
+                            치우기 번거로운 식사는 뒤로하고, 오직 당신의 중요한 업무와 아이디어에만 집중하세요. 한 손에 쏙 들어오는 샌디의 샌드위치는 업무 공간을 깨끗하게 유지하면서도 오후를 견딜 수 있는 고농축 에너지를 제공합니다. 철저하게 계산된 탄단지 밸런스는 식곤증 없이 최상의 컨디션을 유지할 수 있도록 돕는 스마트한 연료가 됩니다. 가장 효율적인 방식으로 당신의 프로페셔널한 일상을 샌디가 든든하게 지원하겠습니다.
+                        </p>
+                        <p>
+                            건강한 라이프스타일을 유지하는 것은 결코 어려운 일이 아닙니다. 어떤 장소와 시간에서도 당신의 리듬을 방해하지 않는 샌디를 선택하는 것만으로도 당신은 오늘 하루 필요한 균형 잡힌 영양을 모두 섭취한 셈입니다. 사무실 책상 위부터 주말의 여유로운 공원 벤치까지, 샌디가 있는 곳이라면 어디든 당신만을 위한 세련된 다이닝 룸으로 변합니다. 매 순간 더 가볍고 확실한 즐거움을 선사하는 샌디와 함께 당신만의 건강한 루틴을 완성해 보세요.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
      <!-- 푸터 -->

@@ -136,6 +136,9 @@ header .sns li{
         z-index: 3000;
     }
 
+
+
+
     .menu-top{
         /* border-bottom: 2px solid var(--pm-color-800); */
          box-shadow: 0 0 10px #ddd;
@@ -143,13 +146,23 @@ header .sns li{
 
     .menu-top .common-frame{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         line-height: 0;
+        position: relative;
     }
 
     .menu-top .logo img{
         height: 5rem;
+    }
+
+    .menu-top .btn-close{
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        line-height: 0;
+        cursor: pointer;
     }
 
     .menu-content{
