@@ -17,7 +17,7 @@
 
 .core .common-frame>.fwb{
     text-align: center;
-    margin-top: 6rem;
+    margin-top: var(--space-3x-large);
     margin-bottom: var(--space-normal);
 }
 
