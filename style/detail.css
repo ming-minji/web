@@ -132,7 +132,7 @@
 .btns-buy>li:nth-of-type(2){flex: 2;}
 .btns-buy>li:nth-of-type(3){flex: 3;}
 .btns-buy>li:nth-of-type(3) a{
-    background-color: var(--pm-color-800);
+    background-color: var(--point-color);
 }
 
 
