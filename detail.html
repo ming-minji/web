@@ -19,7 +19,8 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     
     <script src="./js/listArray.js"></script>
-    <script src="./js/listControl.js"></script>
+    <!-- <script src="./js/listControl.js"></script> -->
+     <script src="./script/detail-recomand.js"></script>
     <link rel="stylesheet" href="./style/detail.css">
 </head>
 <body>
@@ -254,6 +255,145 @@
                         <li><a href="#">장바구니</a></li>
                         <li><a href="#">구매하기</a></li>
                     </ul>
+                </div>
+            </div>
+        </div>
+        <div class="common-frame sticky-menu-wrap">
+            <ul class="sticky-menu">
+                <li><a href="#">많이 찾는 제품</a></li>
+                <li><a href="#">영양 성분</a></li>
+                <li><a href="#">리뷰</a></li>
+            </ul>
+        </div>
+
+        <div class="recomd-product">
+            <div class="common-frame">
+                <h2>많이 찾는 제품</h2>
+                <ul class="list-grid"></ul>
+            </div>
+        </div>
+
+        <div class="nutri">
+            <div class="common-frame">
+                <h2>영양 성분</h2>
+                <div class="nutri-inner">
+                    <div class="nutri1"> 
+                        <!-- 여기 부분도 제목이랑 내용 사진 바꿀거면 바꾸기 -->
+                        <h3>그릴드 소세지 샌드위치</h3>
+                        <p>그릴에서 노릇하게 구워 육즙이 톡 터지는 소세지, 든든한 에너지가 필요한 당신을 위한 선택</p>
+                        <table>
+                            <caption>1회 제공량 기준</caption>
+                            <tr>
+                                <th>성분명</th>
+                                <th>함량</th>
+                            </tr>
+                            <tr>
+                                <td class="twb">칼로리</td>
+                                <td class="fwm">600kcal</td>
+                            </tr>
+                            <tr>
+                                <td class="twb">단백질</td>
+                                <td class="fwm">25g</td>
+                            </tr>
+                            <tr>
+                                <td class="twb">탄수화물</td>
+                                <td class="fwm">50g</td>
+                            </tr>
+                            <tr>
+                                <td class="twb">지방</td>
+                                <td class="fwm">28g</td>
+                            </tr>
+                            <tr>
+                                <td class="twb">나트륨</td>
+                                <td class="fwm">1150mg</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="nutri2">
+                        <img src="./img/nutri-img.jpg" alt="임시사진임 나중에 변경하삼">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="review">
+            <div class="common-frame">
+                <h2>리뷰</h2>
+                <div class="review-wrap">
+                    <div class="rev-con">
+                        <div class="rev-user-info">
+                            <h4>lunch_mate_99</h4>
+                            <div class="likes">
+                                <img src="./img/review-star-icon.svg" alt="좋아요 별 1개">
+                                <img src="./img/review-star-icon.svg" alt="좋아요 별 1개">
+                                <img src="./img/review-star-icon.svg" alt="좋아요 별 1개">
+                                <img src="./img/review-star-icon.svg" alt="좋아요 별 1개">
+                                <img src="./img/review-star-icon.svg" alt="좋아요 별 1개">
+                            </div>
+                            <p>2026.03.18</p>
+                        </div>
+                        <div class="rev-desc">
+                            <div class="rev-thumb-list-wrap">
+                                <ul class="rev-thumb-list">
+                                    <!-- 임시사진임 나중에 변경하고 사진 변경하기 -->
+                                    <li><img src="./img/review1.jpg" alt="샌드위치 사진"></li>
+                                    <li><img src="./img/review2.jpg" alt="샌디가게 외관 사진"></li>
+                                    <li><img src="./img/review3.jpg" alt="닭가슴살 샌드위치 손으로 들고있는 사진"></li>
+                                </ul>
+                            </div>
+                            <h4>바쁜 출근길에 가볍고 깔끔하게 먹을 수 있어서 자주 찾게 되는 메뉴입니다.</h4>
+                            <p>
+                                보통 소세지가 들어간 샌드위치는 기름지거나 짠 경우가 많은데, 이건 그릴에 구워서 그런지 담백해요. 번도 쫄깃하고 속 재료가 흐르지 않게 포장되어 있어서 이동하면서 먹기에도 정말 편하더라고요. 특히 은은하게 퍼지는 홀그레인 머스터드 소스랑 소세지 육즙의 조화가 아주 훌륭합니다. 든든하면서도 속이 부대끼지 않아 앞으로도 아침 대용으로 자주 주문할 생각이에요.
+                            </p>
+                        </div>
+                        <h4>design_bom_24</h4>
+                            <div class="likes">
+                                <img src="./img/review-star-icon.svg" alt="좋아요 별 1개">
+                                <img src="./img/review-star-icon.svg" alt="좋아요 별 1개">
+                                <img src="./img/review-star-icon.svg" alt="좋아요 별 1개">
+                                <img src="./img/review-star-icon.svg" alt="좋아요 별 1개">
+                            </div>
+                            <p>2026.03.10</p>
+                        </div>
+                        <div class="rev-desc">
+                            <div class="rev-thumb-list-wrap">
+                                <ul class="rev-thumb-list">
+                                    <!-- 임시사진임 나중에 변경하고 사진 변경하기 -->
+                                    <li><img src="./img/review1.jpg" alt="샌드위치 사진"></li>
+                                    <li><img src="./img/review2.jpg" alt="샌디가게 외관 사진"></li>
+                                    <li><img src="./img/review3.jpg" alt="닭가슴살 샌드위치 손으로 들고있는 사진"></li>
+                                </ul>
+                            </div>
+                            <h4>점심시간에 간편하게 먹으려고 주문했어요.</h4>
+                            <p>
+                                점심시간에 간편하게 먹으려고 주문했는데 소세지가 엄청 탱글탱글해서 씹는 맛이 좋았어요. 야채도 아삭아삭하고 신선함이 느껴져서 건강한 수제 샌드위치를 먹는 기분이 들었습니다. 다만 평소에 삼삼하게 드시는 분들 입맛에는 소세지 자체의 짭조름함이 강하게 느껴질 수도 있을 것 같아요. 저는 콜라나 아메리카노랑 같이 먹으니 간이 딱 맞았고, 양도 성인 남성이 먹기에 충분히 배부릅니다. 다음에는 치즈를 추가하거나 다른 소스 옵션이 있다면 다양하게 커스텀해서 먹어보고 싶네요.
+                            </p>
+                        </div>
+                        <h4>yeop_good</h4>
+                            <div class="likes">
+                                <img src="./img/review-star-icon.svg" alt="좋아요 별 1개">
+                                <img src="./img/review-star-icon.svg" alt="좋아요 별 1개">
+                                <img src="./img/review-star-icon.svg" alt="좋아요 별 1개">
+                                <img src="./img/review-star-icon.svg" alt="좋아요 별 1개">
+                                <img src="./img/review-star-icon.svg" alt="좋아요 별 1개">
+                            </div>
+                            <p>2026.03.02</p>
+                        </div>
+                        <div class="rev-desc">
+                            <div class="rev-thumb-list-wrap">
+                                <ul class="rev-thumb-list">
+                                    <!-- 임시사진임 나중에 변경하고 사진 변경하기 -->
+                                    <li><img src="./img/review1.jpg" alt="샌드위치 사진"></li>
+                                    <li><img src="./img/review2.jpg" alt="샌디가게 외관 사진"></li>
+                                    <li><img src="./img/review3.jpg" alt="닭가슴살 샌드위치 손으로 들고있는 사진"></li>
+                                </ul>
+                            </div>
+                            <h4>인스타에서 비주얼을 보고 너무 맛있어 보여서 저장해 뒀다가 드디어 방문해서 먹어봤습니다.</h4>
+                            <p>
+                                일단 소세지가 저렴한 가공육 맛이 아니라 고기 함량이 높은 고급스러운 맛이라 만족스러웠어요. 빵을 토스트해서 겉은 바삭하고 속은 촉촉한데, 그릴 향이 밴 소세지랑 궁합이 엄청나네요. 패키지도 예쁘고 깔끔하게 담겨 나와서 사진 찍기에도 좋고 먹는 내내 기분이 좋았습니다. 요즘 먹어본 프랜차이즈나 개인 카페 샌드위치 통틀어서 가장 퀄리티가 높아서 무조건 재방문 각입니다.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

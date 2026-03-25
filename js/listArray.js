@@ -70,14 +70,5 @@ let listArray = [
         pThumnail: "list-sandwich.jpg",
         // 썸네일에 들어갈 사진 만들기, 사진 저장할 땐 list-음식이름으로 저장하기. 저장된 이름 전체적으로 복사해서 썸네일 ""사이에 넣기
         plike:false
-    },
-    {
-        pid:8,
-        pName: "Sweet Corn Mayo",
-        pDesc: "톡톡 터지는 옥수수와 특제 마요 소스의 달콤 짭짤한 조화, 기분 좋은 활력을 주는 마성의 맛",
-        pPrice: 4500,
-        pThumnail: "list-sandwich.jpg",
-        // 썸네일에 들어갈 사진 만들기, 사진 저장할 땐 list-음식이름으로 저장하기. 저장된 이름 전체적으로 복사해서 썸네일 ""사이에 넣기
-        plike:false
     }
 ]
