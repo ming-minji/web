@@ -33,7 +33,7 @@
 
 .price-table{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     gap: var(--space-small) var(--space-normal);
     margin-bottom: var(--space-large);
 }
@@ -64,10 +64,10 @@
 
 .box-number{
     display: flex;
+    align-items: center;
 }
 
 .btn-minus{
-    height: 1.2rem;
     line-height: 0;
     cursor: pointer;
 }
@@ -89,15 +89,13 @@
     padding: 0 1.5rem;
 }
 
-/* 쌤 깃허브 확인해서 쓰기 */
 .price-result{
     display: flex;
     justify-content: space-between;
     margin-bottom: var(--space-large);
 }
 
-.price-result-dd
-{
+.price-result-dd{
     font-size: var(--fs-h1);
     font-weight: var(--fs-bold);
 }
@@ -274,11 +272,12 @@
 }
 
 .nutri1 table td{
-    padding: var(--space-small);
+    padding: var(--space-small) 0;
 }
 
 .review{
     margin-top: var(--space-3x-large);
+    margin-bottom: var(--space-3x-large);
 }
 
 .review h2{
@@ -286,11 +285,20 @@
     text-align: center;
 }
 
-.rev-con{
+.review-wrap {
     display: flex;
-    gap: var(--space-normal);
-    padding: ;
+    flex-direction: column;
+    gap: var(--space-x-large);
 }
+
+.rev-con{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-normal);
+    padding: var(--space-large) 0;
+    border-bottom: 1px solid #000;
+}
+
 
 .rev-user-info{
     flex: 1;
@@ -318,12 +326,18 @@
     flex-shrink: 0;
 }
 
-.rev-thumb-list
-
-
-.rev-con{
-
+.rev-thumb-list>li img{
+    width:460px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
+
+
+.rev-thumb-list-wrap{
+    overflow-x: auto;
+}
+
+
 
 @media (max-width:1440px){
     .list-grid{
@@ -336,10 +350,16 @@
     }
 
     .rev-thumb-list>li img{
-        width: ;
+        width: 298px;
     }
 }
+
+
 @media (max-width:768px){
+    .sticky-menu-wrap{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
     .product1 .common-frame{
         flex-direction: column;
         gap: var(--space-large);
@@ -360,11 +380,6 @@
 
     .list-grid{
         grid-template-columns: repeat(2,1fr);
-    }
-
-    .sticky-menu-wrap{
-        margin-left: 1rem;
-        margin-right: 1rem;
     }
 
     .nutri-inner{

@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded",()=>{
         <li>
             <a href="./detail.html?pid=${item.pid}">
                 <figure>
-                    <img src="./img/${item.pThumnail || item.pThumbnail || 'list-sandwich.jpg'}" alt="${item.pName}">
+                    <img src="./img/${item.pThumbnail}" alt="${item.pName}">
                 </figure>
                 <div class="list-option">
                     <span class="btn-heart">
@@ -23,5 +23,15 @@ document.addEventListener("DOMContentLoaded",()=>{
     })
     list.innerHTML = result
 
-})
+    // 상품 개수를 데이터 갯수에 맞게 입력하는 코드
+    document.querySelector("#current-count").innerHTML = listArray.length
+    
+    
 
+
+    
+
+
+
+
+})
