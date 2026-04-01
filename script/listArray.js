@@ -4,7 +4,7 @@ let listArray = [
         pName: "Grilled Sausage",
         pDesc: "그릴에서 노릇하게 구워 육즙이 톡 터지는 소세지, 든든한 에너지가 필요한 당신을 위한 완벽한 선택",
         pPrice: 4500,
-        pThumnail: "list-sandwich.jpg",
+        pThumnail: "sand-griid.png",
         // 썸네일에 들어갈 사진 만들기, 사진 저장할 땐 list-음식이름으로 저장하기. 저장된 이름 전체적으로 복사해서 썸네일 ""사이에 넣기
         plike:false
     },

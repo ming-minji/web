@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded",()=>{
         <li>
             <a href="./detail.html?pid=${item.pid}">
                 <figure>
-                    <img src="./img/${item.pThumbnail}" alt="${item.pName}">
+                    <img src="./img/${item.pThumnail || item.pThumbnail || 'list-sandwich.jpg'}" alt="${item.pName}">
                 </figure>
                 <div class="list-option">
                     <span class="btn-heart">
