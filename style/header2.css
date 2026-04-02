@@ -196,7 +196,7 @@ header .sns li{
     }
 
     .gnb-smart ul a:hover{
-        color: var(--point-color);
+        color: var(--pm-color-800);
     }
 
     .menu-sns{

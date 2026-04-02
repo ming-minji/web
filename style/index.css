@@ -56,6 +56,7 @@
 
 .story-frame h2{
     margin-bottom: var(--space-normal);
+    color: var(--pm-color-800);
 }
 
 .story-frame h4{
@@ -81,6 +82,8 @@
 
 .philo-list>li h3{
     margin-bottom: var(--space-large);
+    color: var(--pm-color-800);
+    text-transform: uppercase;
 }
 
 .philo-list>li h3+div{
@@ -98,6 +101,7 @@
 
 .menu-frame h1{
     margin-bottom: var(--space-small);
+    text-transform: uppercase;
 }
 
 .menu-frame h1+p{ 
@@ -108,6 +112,8 @@
 .menu-frame .swiper-slide h4{
     margin-top: 1.5rem;
     margin-bottom: var(--space-small);
+    color: var(--pm-color-800);
+
 }
 
 .franchies{
@@ -119,9 +125,6 @@
     text-align: center;
 }
 
-.franchies{
-
-}
 
 .franchies h1+p{
     margin-bottom: var(--space-x-large);
@@ -143,6 +146,7 @@
     padding: var(--space-normal);
     border-radius: 0.5rem;
     backdrop-filter: blur(10px);
+    /* 배경색이 투명해야만 적용이 된다. */
 }
 
 .why>li>p:first-of-type{

@@ -157,7 +157,7 @@
     position: sticky;
     left: 0;
     top: 5.5rem;
-    margin: var(--space-3x-large) auto 2rem;
+    margin: var(--space-x-large) auto 2rem;
     z-index: 1000;
     padding-bottom: var(--space-2x-large);
 }
@@ -243,6 +243,8 @@
 
 .nutri1 h3{
     margin-bottom: var(--space-small);
+    text-transform: uppercase;
+    color: var(--pm-color-800);
 }
 
 .nutri-inner h3+p{
@@ -267,7 +269,7 @@
 .nutri1 table th{
     text-align: left;
     width: 50%;
-    font-weight: var(--fw-reg);
+    font-weight: var(--fw-bold);
     padding: var(--space-small) 0;
 }
 

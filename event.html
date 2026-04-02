@@ -1,28 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>샌디</title>
-    <link rel="stylesheet" href="./style/font.css">
-    <link rel="stylesheet" href="./style/reset.css">
-    <link rel="stylesheet" href="./style/system.css">
-    <link rel="stylesheet" href="./style/common.css">
-    <link rel="stylesheet" href="./style/header2.css">
-    <link rel="stylesheet" href="./style/footer.css">
+    <script src="./script/head-common.js"></script>
     <script src="./script/header.js"></script>
+    <script src="./script/include.js"></script>
 
     <!-- swiper js -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
     <link rel="stylesheet" href="./style/event.css">
-    <script src="./script/include.js" defer></script>
+    
 </head>
 <body>
     <div id="include-header"></div>
-
     <main>
+        <div class="sub-banner">
+            <div class="common-frame">
+                <h1>지금 이 순간, 더 맛있고 더 특별하게</h1>
+            </div>
+        </div>
         <div class="event1">
             <div class="common-frame">
                 <h3>이달의 혜택</h3>
@@ -32,13 +28,13 @@
                         <div class="swiper event1-img-swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="./img/event1.jpg" alt="이달의 샌드위치 3가지: SET UP! 이달의 샌디 pick! 메뉴 3가지를 세트로 업그레이드해 드립니다.">
+                                    <img src="./img/event1.jpg" alt="">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="./img/best6.jpg" alt="">
+                                    <img src="./img/event1.jpg" alt="">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="./img/best3.jpg" alt="">
+                                    <img src="./img/event1.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -47,49 +43,88 @@
                         <div class="swiper event1-txt-swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <h4>이달의 샌드위치 3가지: SET UP!</h4>
-                                    <p>이달의 샌디 pick! 메뉴 3가지를 세트로 업그레이드해 드립니다.</p>
-                                    <p class="b2 fwm">'콘마요 샌드위치 / 메이플 베이컨 B.L.T 샌드위치 / 마일드 닭가슴살 샌드위치' 단품 구매 시, 아메리카노 or 데일리 수프 무료 증정</p>
+                                    <h4>[Monthly Pick] 이달의 샌드위치 3가지: SET UP!</h4>
+                                    <p>이달의 샌디 pick! 3가지 중 1가지 구매 시 세트로 업그레이드</p>
+                                    <p class="b2 fwm">'콘마요 샌드위치 / 메이플 베이컨 B.L.T 샌드위치 / 마일드 닭가슴살 샌드위치'  <br>단품 구매 시, 아메리카노 or 데일리 수프 무료 증정</p>
                                     <br>
                                     <p class="b2 fwm">기간: 0월 1일 ~ 0월 30일</p>
                                 </div>
                                 <div class="swiper-slide">
-                                    <h4>[Eco-Sandy] 개인 다회용기 이벤트</h4>
-                                    <p>환경을 생각하는 당신의 걸음을 응원합니다. 개인 다회용기를 가져오시는 분들께 드리는 혜택</p>
+                                    <h4>[Welcome Event] 샌디가 쏜다! '첫 만남' 기프트</h4>
+                                    <p>샌디 홈페이지 가입 또는 앱 다운로드 후 로그인 시 웰컴 쿠폰팩 증정</p>
+                                    <p class="b2 fwm">전원 증정: 웰컴 쿠폰팩(10% 할인 + 무료 배송 쿠폰) <br>추첨(100명): 샌디 한정판 굿즈 세트 (에코백 & 머그컵)</p>
+                                    <br>
+                                    <!-- <p class="b2 fwm">기간: 0월 1일 ~ 0월 30일</p> -->
+                                    
                                 </div>
                                 <div class="swiper-slide">
-                                    <h4>[Lunch Time] 점심 할인 이벤트</h4>
-                                    <p>점심시간만큼은 고민 없이 즐겁게! 직장인과 학생분들을 위한 타임 세일</p>
+                                    <h4>[Challenge] 샌디와 함께하는 '굿모닝 샌디' 챌린지</h4>
+                                    <p>"여러분의 일상 속에 샌디는 어떤 모습인가요?"</p>
+                                    <p class="b2 fwm">진행 방식: 7일 동안 연속으로 샌디 앱 출석 체크 또는 커뮤니티 인증샷 업로드 <br>리워드: 7일 완주 시 '샌디 마스터' 배지 수여 및 시크릿 할인 코드 공개</p>
+                                    <br>
+                                    <p class="b2 fwm">기간: 0월 1일 ~ 0월 30일</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <script>
-                const event1ImgSlider = new Swiper(".event1-img-swiper",{
-                    loof: true,
-                    autoplay: {
-                        delay: 2500,
-                        disableOnInteraction: false,
-                    },
-                    speed: 1000
-                })
-
-                event1ImgSlider.on('slideChange',function () {
-                    console.log('slide changed')
-                })
-
-                const event1TxtSlider = new Swiper(".event1-txt-swiper",{
-                    effect: "fade",
-                    speed: 1000
-
-                })
-            </script>
+        </div>
+        <script>
+            const event1ImgSlider = new Swiper(".event1-img-swiper",{
+                loop: true,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                speed:2000
+            })
+            const event1TxtSlider = new Swiper(".event1-txt-swiper",{
+                effect: "fade",
+                speed:2000
+            })
+            event1ImgSlider.on('slideChange', function () {
+                // console.log(event1ImgSlider.realIndex);
+                event1TxtSlider.slideTo(event1ImgSlider.realIndex, 1000)
+            });
+        </script>
+        <div class="event2">
+            <div class="common-frame">
+                <h3>진행 중인 이벤트</h3>
+                <ul class="event-grid">
+                    <li>
+                        <figure>
+                            <img src="./img/event1.jpg" alt="SNS팔로우 이벤트 MORVA 공식 인스타그램을 팔로우하면 즉시 사용 가능한 무료 쿠폰 증정">
+                        </figure>
+                        <h4>[Eco-Sandy] <br>개인 다회용기 이벤트</h4>
+                        <p>환경을 생각하는 당신의 걸음을 응원합니다. 개인 다회용기를 가져오시는 분들께 드리는 혜택</p>
+                    </li>
+                    
+                    <li>
+                        <figure>
+                            <img src="./img/event1.jpg" alt="타임 이벤트 (해피타임) 오후 2시부터 5시까지아메리카노를 특별가 1,500원에 제공">
+                        </figure>
+                        <h4>[Lunch Time] <br>점심 할인 이벤트</h4>
+                        <p>점심시간만큼은 고민 없이 즐겁게! 직장인과 학생분들을 위한 타임 세일</p>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./img/event1.jpg" alt="신규 회원 이벤트 신규 회원 가입 시 즉시 사용 가능한2,000원 할인 쿠폰 지급">
+                        </figure>
+                        <h4>[Review Event] <br>이달 '샌디왕'은 누구?</h4>
+                        <p>샌디와 함께해서 특별하고 맛있었던 여러분의 소중한 순간들을 들려주세요.</p>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./img/event1.jpg" alt="텀블러 할인 이벤트 개인 텀블러 이용 시 전 메뉴 500원 할인">
+                        </figure>
+                        <h4>[Together] <br>샌디와 함께하는 '기부 샌드'</h4>
+                        <p>맛있는 샌드위치를 먹는 것만으로도 이웃에게 사랑을 전할 수 있습니다.</p>
+                    </li>
+                </ul>
+            </div>
         </div>
     </main>
-
-    <!-- 푸터 -->
     <div id="include-footer"></div>
 </body>
 </html>

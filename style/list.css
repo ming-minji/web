@@ -1,5 +1,5 @@
 .sub-banner{
-    height: 400px;
+    height: 600px;
     background: url(../img/bg-list.jpg) no-repeat 50% 50% / cover;
     /* 이거 사진 임시라서 다른 걸로 교체해야 함 */
 }
@@ -83,6 +83,7 @@
     -webkit-line-clamp: 1;
     overflow: hidden;
     text-overflow: ellipsis;
+    color: var(--pm-color-800);
 }
 
 .list-grid li p{
@@ -92,11 +93,14 @@
     -webkit-line-clamp: 2;
     overflow: hidden;
     text-overflow: ellipsis;
+    
 }
 
 .price{
     font-size: var(--fs-h2);
 }
+
+
 
 @media (max-width:1440px){
     .sub-banner{

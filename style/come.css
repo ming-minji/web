@@ -57,11 +57,11 @@
 }
 
 .come2{
-    margin-top: var(--space-3x-large);
+    margin: var(--space-3x-large) 0;
 }
 .come2 h3{
     text-align: center;
-    margin-bottom: var(--space-small);
+    margin-bottom: var(--space-large);
 }
 .come2 h3+p{
     text-align: center;
