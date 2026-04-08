@@ -3,7 +3,7 @@
     /* 여기 나중에 비율 바꿔도 됨 */
     background: url("../img/event1.jpg") no-repeat 50% 50% / cover;
     /* 사진 변경하기 */
-}
+} 
 .sub-banner .common-frame{
     display: flex;;
     height:100%;
@@ -20,7 +20,7 @@
 }
 .event1 h3+p{
     text-align: center;
-    margin-bottom: var(--space-large);
+    margin-bottom: var(--space-2x-large);
 }
 .event1-content{
     display: flex;
@@ -34,9 +34,10 @@
 }
 .event1-txt-slider .swiper-slide{
     background-color: #fff;
+
 }
 .event1-txt-slider h4{
-    margin-top: var(--space-normal,1rem);
+    margin-top: var(--space-2x-large,4rem);
     margin-bottom: var(--space-small,0.5rem);
     color: var(--pm-color-800);
 }
@@ -86,6 +87,10 @@
     .event1-txt-slider{
         width:calc((100% - 1rem)/2);
     }
+    .event1-txt-slider h4{
+    margin-top: var(--space-normal,4rem);
+
+}
 }
 
 @media (max-width:768px){
