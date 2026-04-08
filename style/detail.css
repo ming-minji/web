@@ -48,6 +48,10 @@
     font-size: var(--fs-bd2);
 }
 
+.price-table dt{
+    font-weight: var(--fw-bold);
+}
+
 .sell-info{
     display: flex;
     gap: var(--space-normal);
@@ -95,10 +99,17 @@
     margin-bottom: var(--space-large);
 }
 
-.price-result-dd{
+.price-result dd{
     font-size: var(--fs-h1);
-    font-weight: var(--fs-bold);
+    font-weight: var(--fw-bold);
 }
+
+.price-result dt{
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-bold);
+}
+
+
 
 .sell-info>div:last-of-type{
     text-align: right;
