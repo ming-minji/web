@@ -40,11 +40,10 @@
 }
 
 .core-card>li{
-    border: 1px solid #cfcfcf;
+    border: 2.5px solid var(--pm-color-800);
     padding: var(--space-large);
     border-radius: 20px;
     box-sizing: border-box;
-    background-color: #F9F1D9;
 }
 
 .core-card>li>h4{

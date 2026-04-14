@@ -46,6 +46,7 @@
     display: block;
     font-weight: var(--fw-reg);
     font-size: var(--fs-bd2);
+    margin-top: 0.5rem;
 }
 
 .price-table dt{
@@ -58,7 +59,7 @@
     align-items: center;
     padding: var(--space-normal) 0;
     border-top: 1px solid #999;
-    border-bottom: 1xp solid #999;
+    border-bottom: 1px solid #999;
     margin-bottom: var(--space-large);
 }
 
@@ -154,7 +155,7 @@
 .sticky-menu a{
     padding: var(--space-small) var(--space-large);
     display: block;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
     border-radius: 150px;
     background-color: #fff;
 }
@@ -309,7 +310,7 @@
     grid-template-columns: 1fr;
     gap: var(--space-normal);
     padding: var(--space-large) 0;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #999;
 }
 
 

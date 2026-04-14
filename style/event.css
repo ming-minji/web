@@ -44,6 +44,7 @@
 .event1-txt-slider h4+p{
     margin-bottom: var(--space-2x-large,4rem);
 }
+
 .event2{
     margin-bottom: var(--space-3x-large);
 }
@@ -55,7 +56,7 @@
 .event-grid figure{
     margin-bottom: var(--space-large);
     width:100%;
-    aspect-ratio: 1/1;
+    /* aspect-ratio: 1/1; */
 }
 .event-grid figure img{
     width:100%;
