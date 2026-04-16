@@ -1,5 +1,5 @@
 .sub-banner{
-    height: 600px;
+    height: 400px;
     background: url(../img/bg-list.jpg) no-repeat 50% 50% / cover;
     /* 이거 사진 임시라서 다른 걸로 교체해야 함 */
 }
@@ -10,6 +10,11 @@
     align-items: center;
     color: #fff;
     height: 100%;
+}
+
+.sub-banner .common-frame h1{
+    font-size: 50px;
+    text-transform: uppercase
 }
 
 .title{
@@ -83,7 +88,7 @@
     -webkit-line-clamp: 1;
     overflow: hidden;
     text-overflow: ellipsis;
-    color: var(--pm-color-800);
+    /* color: var(--pm-color-800); */
 }
 
 .list-grid li p{
@@ -93,6 +98,9 @@
     -webkit-line-clamp: 2;
     overflow: hidden;
     text-overflow: ellipsis;
+    border-top: 1px solid #999;
+    padding-top: .5rem;
+    color: #414141;
     
 }
 

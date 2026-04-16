@@ -101,12 +101,12 @@
 }
 
 .price-result dd{
-    font-size: var(--fs-h1);
+    font-size: var(--fs-h2);
     font-weight: var(--fw-bold);
 }
 
 .price-result dt{
-    font-size: var(--fs-h1);
+    font-size: var(--fs-h2);
     font-weight: var(--fw-bold);
 }
 
@@ -172,6 +172,7 @@
     margin: var(--space-x-large) auto 2rem;
     z-index: 1000;
     padding-bottom: var(--space-2x-large);
+
 }
 
 .list-grid{
@@ -389,7 +390,7 @@
     }
 
     .sticky-menu{
-        justify-content: flex-start;
+        justify-content: center;
     }
 
     .list-grid{

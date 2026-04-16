@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    
+    <script src="./script/head-common.js"></script>
+    <script src="./script/header.js"></script>
+    
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    
+    <link rel="stylesheet" href="./style/list.css">
+    <script src="./script/setArray.js"></script>
+    <script src="./script/setControl.js"></script>
+    <script src="./script/include.js"></script>
+    
+    <script src="./script/heart.js"></script>
+    <script src="./script/toWon.js"></script>
+    <script src="./script/getParam.js"></script>
+</head>
+<body>
+    <div id="include-header"></div>
+
+    <main>
+
+        <!-- 서브 배너 -->
+         <div class="sub-banner">
+            <div class="common-frame">
+                <h1>SANDWICH SET</h1>
+            </div>
+         </div>
+
+         <!-- 타이틀 -->
+          <div class="title">
+            <div class="common-frame">
+                <h3>SANDIE SET</h3>
+                <p>당신의 바쁜 일상, 모두를 위해 준비한 샌디의 정성</p>
+            </div>
+          </div>
+
+        <!-- 옵션 -->
+        <div class="option">
+            <div class="common-frame">
+                <div class="total-view">
+                    <span>Total</span>
+                    <span id="current-count" class="fwb">2</span>
+                </div>
+                <div>
+                    <select id="view-filter" class="b2">
+                        <option value="정렬방식">정렬방식</option>
+                        <option value="낮은 가격 순">낮은 가격 순</option>
+                        <option value="높은 가격 순">높은 가격 순</option>
+                        <option value="신상품">신상품</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- 상품리스트 -->
+        <div class="list-wrap">
+            <div class="common-frame">
+                <ul class="list-grid">
+                    <li>
+                        <a href="./detail-set.html?pid=0">
+                            <figure>
+                                <img src="./img/set-work.jpg" alt="spicy chicken melt와 아이스 아메리카노 세트 이미지">
+                            </figure>
+                            <div class="list-option">
+                                <span class="btn-heart">
+                                    <img src="./img/icon-heart.svg" alt="좋아요버튼 하트아이콘">
+                                </span>
+                            </div>
+                            <h4>출근세트</h4>    
+                            <p class="fwr">샌디가 하루의 시작을 든든하게 책임질게요! 직장인과 학생을 위한 출근세트</p>
+                            <div class="price fwb">5,000원</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+
+     <!-- 푸터 -->
+    <div id="include-footer"></div>
+</body>
+</html>

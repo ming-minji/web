@@ -1,9 +1,8 @@
 .sub-banner{
     height:400px;
     background:
-    linear-gradient(45deg,rgba(0, 0, 0, 0.406),rgba(0, 0, 0, 0.497)),
+    /* linear-gradient(45deg,rgba(0, 0, 0, 0.406),rgba(0, 0, 0, 0.497)), */
     url(../img/sub-banner-come.jpg) no-repeat 50% 50% / cover;
-    /* 여기 사진 나중에 변경하기..? */
 }
 .sub-banner .common-frame{
     display: flex;
@@ -12,6 +11,12 @@
     justify-content: center;
     color:#fff;
 }
+
+.sub-banner .common-frame h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
 .come1{
     margin-top: var(--space-3x-large);
 }
@@ -41,6 +46,7 @@
 }
 .txt h4{
     margin-bottom: 1.5rem;
+    font-size: var(--fs-bd1);
 }
 .come1-dl1{
     display: grid;
@@ -82,6 +88,7 @@
 .come2-list h5{
     font-weight: var(--fw-bold);
     margin-bottom: 1.5rem;
+    padding-top: 1rem;
 }
 
 @media (max-width:1440px){

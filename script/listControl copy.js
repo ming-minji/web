@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded",()=>{
                 </div>
                 <h4>${item.pName}</h4>
                 <p class="fwm">${item.pDesc}</p>
+                <div class="price fwb">${toWon(item.pPrice)}</div>
             </a>
         </li>`
     })
