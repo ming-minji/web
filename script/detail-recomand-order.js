@@ -1,0 +1,27 @@
+document.addEventListener("DOMContentLoaded",()=>{
+
+    // ul태그에 li태그의 형태로 상품 데이터를 넣는 소스코드
+    const list = document.querySelector(".list-grid")
+    let result = ""
+    orderArray.forEach(item=>{
+        result += `
+        <li>
+            <a href="./order-detail.html?pid=${item.pid}">
+                <figure>
+                    <img src="./img/${item.pThumnail || item.pThumbnail || 'set-work.jpg'}" alt="${item.pName}">
+                </figure>
+                <div class="list-option">
+                    <span class="btn-heart">
+                        <img src="./img/icon-heart.svg" alt="좋아요 아이콘">
+                    </span>
+                </div>
+                <h4>${item.pName}</h4>
+                <p class="fwm">${item.pDesc}</p>
+                <div class="price fwb">${toWon(item.pPrice)}</div>
+            </a>
+        </li>`
+    })
+    list.innerHTML = result
+
+})
+

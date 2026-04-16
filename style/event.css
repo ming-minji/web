@@ -1,16 +1,13 @@
 .sub-banner{
-    height:400px; 
-    /* 여기 나중에 비율 바꿔도 됨 */
-    /* background: url("../img/event-banner.jpg") no-repeat 50% 50% / cover; */
-    background-color: var(--pm-color-800);
-    /* 사진 변경하기 */
+    height:500px; 
+    background: url("../img/event-banner.jpg") no-repeat 50% 50% / cover;
 } 
 .sub-banner .common-frame{
     display: flex;;
     height:100%;
     justify-content: center;
     align-items: center;
-    color:#fff;
+    color:var(--point-color);
 }
 
 .sub-banner .common-frame h1{
@@ -85,7 +82,7 @@
 
 @media (max-width:1440px){
     .sub-banner{
-        height:500px;
+        height:400px;
     }
     .event1-content{
         gap:var(--space-normal);
@@ -104,12 +101,13 @@
 
 @media (max-width:768px){
     .sub-banner{
-        height:600px;
+        height:400px;
         text-align: center;
     }
     .event1-content{
         flex-direction: column;
         gap:var(--space-large);
+        padding-bottom: var(--space-3x-large);
     }
     .event1-img-slider{
         width:100%;

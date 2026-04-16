@@ -1,5 +1,5 @@
 .sub-banner{
-    height: 600px;
+    height: 500px;
     background: url(../img/sub-banner.jpg) 50% 50% / cover;
 }
 
@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: var(--point-color);
     height: 100%;
 }
 
@@ -175,7 +175,7 @@
 
 
 @media (max-width:768px){
-    .sub-banner{height: 500px;}
+    .sub-banner{height: 400px;}
 
     .sub-banner .common-frame>h1{
         font-size: 30px;

@@ -1,5 +1,5 @@
 .sub-banner{
-    height:400px;
+    height:500px;
     background:
     /* linear-gradient(45deg,rgba(0, 0, 0, 0.406),rgba(0, 0, 0, 0.497)), */
     url(../img/sub-banner-come.jpg) no-repeat 50% 50% / cover;
@@ -9,7 +9,7 @@
     height: 100%;;
     align-items: center;
     justify-content: center;
-    color:#fff;
+    color:var(--point-color);
 }
 
 .sub-banner .common-frame h1{
@@ -93,7 +93,7 @@
 
 @media (max-width:1440px){
     .sub-banner{
-        height:500px;
+        height:400px;
     }
     .come1-content{
         gap:var(--space-normal);
@@ -107,7 +107,7 @@
 
 @media (max-width:768px){
     .sub-banner{
-        height:600px;
+        height:400px;
         text-align: center;
     }
     .come1-content{

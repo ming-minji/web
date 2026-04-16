@@ -1,14 +1,13 @@
 .sub-banner{
-    height: 400px;
-    background: url(../img/bg-list.jpg) no-repeat 50% 50% / cover;
-    /* 이거 사진 임시라서 다른 걸로 교체해야 함 */
+    height: 500px;
+    background: url(../img/menu-banner.jpg) no-repeat 50% 50% / cover;
 }
 
 .sub-banner .common-frame{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: var(--point-color);
     height: 100%;
 }
 
@@ -112,7 +111,7 @@
 
 @media (max-width:1440px){
     .sub-banner{
-        height: 500px;
+        height: 400px;
         /* background: url(../img/bg-list.jpg) no-repeat 50% 50% / cover; */
         /* 이미지 교체하기 */
     }
@@ -126,7 +125,7 @@
 
 @media (max-width:768px){
     .sub-banner{
-        height: 750px;
+        height: 400px;
     }
     
     .list-grid{
