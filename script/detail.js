@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded",()=>{
 
     let productId = getParam("pid")
-    const result = listArray.find(item=>item.pid == productId)
+    const result = someListArray.find(item=>item.pid == productId)
     // find함수는 앞의 listArray 라는 배열의 여러 원소들을 전부 조사하여 원소 중 pid키값이 현재 productId변수에 저장된 수와 일치되는 원소를 리턴하여 result라는 변수에 저장한다.
 
     console.log(result)

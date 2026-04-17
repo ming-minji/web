@@ -12,7 +12,7 @@
 }
 
 .sub-banner .common-frame>h1{
-    font-size: 50px;
+    font-size: 2.5rem;
 }
 
 .core .common-frame>.fwb{
@@ -133,11 +133,10 @@
     margin-bottom: 6rem;
 }
 
-.iden-right p:nth-of-type(1),
-.iden-right p:nth-of-type(2),
-.iden-right p:nth-of-type(3){
-    border-left: 3px solid var(--point-color);
+.iden-right {
+    border-left: 4px solid var(--point-color);
     padding-left: var(--space-normal);
+    margin-top: var(--space-large);
 }
 
 
@@ -187,12 +186,6 @@
     .identity-desc{
         flex-direction: column;
         gap: var(--space-normal);
-    }
-
-    .iden-right{
-        border-left: 4px solid var(--pm-color-800);
-        padding-left: var(--space-large);
-        margin-top: var(--space-large);
     }
 
     .iden-left h5{

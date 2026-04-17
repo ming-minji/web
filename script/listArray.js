@@ -62,5 +62,21 @@ let listArray = [
         pPrice: 7800,
         pThumbnail: "sand-steak.jpg",
         plike:false
+    },
+    {
+        pid:8,
+        pName: "Truffle Egg Mayo",
+        pDesc: "부드러운 에그 마요에 은은한 트러플 풍미를 더한 일상 속 특별한 한 입",
+        pPrice: 6400,
+        pThumbnail: "sand-truffle.jpg",
+        plike:false
+    },
+    {
+        pid:9,
+        pName: "Basil Ricotta Veggie",
+        pDesc: "향긋한 바질과 꾸덕한 리코타 치즈가 선사하는 산뜻하고 싱그러운 활력",
+        pPrice: 4500,
+        pThumbnail: "sand-cheese.jpg",
+        plike:false
     }
 ]

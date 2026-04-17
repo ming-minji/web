@@ -1,7 +1,7 @@
 footer{
     background-color: var(--pm-color-900);
     color: #fff;
-    padding: var(--space-x-large);
+    padding: var(--space-x-large) 0;
 }
 
 .ft1{
